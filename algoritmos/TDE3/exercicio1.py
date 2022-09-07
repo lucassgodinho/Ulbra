@@ -1,11 +1,6 @@
-#Dados dois números A e B, some 100 ao maior número e imprima#
 print("Exercicio 1")
-A=float(input('Digite um numero: '))
-B=float(input("Digite um segundo numero: "))
-
-if A>B:
-    soma=A+100
-else:
-    soma=B+100
-
-print(f' Adicionando-se 100 ao maior numero é igual= {soma}')   
+precoini=int(input("Valor de fabricacao? "))
+imposto= precoini * 0.3
+venda= precoini * 0.1
+result=(imposto + venda + precoini) 
+print (f"Resultado do preco final e = {result}")

@@ -1,9 +1,9 @@
-#FUP que leia o número da conta bancária e o saldo de um cliente. Caso a conta tenha saldo negativo,
-#  o programa deve enviar a seguinte mensagem: CONTA ESTOURADA, caso contrário CONTA NORMAL.
-print("Exercicio 10")
-numconta=float(input("Digite o numero da sua conta: "))
-saldo=float(input("Digite corretamento o seu saldo: "))
-if saldo >=0:
-    print("CONTA NORMAL")
-else: 
-    print("CONTA ESTOURADA")
+print("exercicio 10")
+idvendedor=float(input('Digite seu numero de identificacao: '))
+salafixo= float(input('Digite seu salario fixo: '))
+numcarros= float(input('Digite quantos carros voce vendeu: '))
+comissao= float(input("Digite qual o valor que recebe por carro vendido: "))
+salario_comi= salafixo + comissao * numcarros  
+print(f"Funcionario do codigo: {idvendedor}, vendeu {numcarros}, recebendo {comissao} reias por carro vendido, sendo seu salario final de {salario_comi} reais.  ")
+
+

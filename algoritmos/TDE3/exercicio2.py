@@ -1,7 +1,6 @@
-#FUP para determinar se uma pessoa é maior ou menor de idade.#
-print("Exercicio 2")
-idade=int(input("Digite sua idade: "))
-if idade>=18:
-    print("Voce possui mais de 18 anos.")
-else:
-    print("Voce e menor de idade.")    
+print ("Exercicio 2")
+number1=int(input("Digite um numero inteiro: \n"))
+number2=int(input("Digite um segundo numero: \n"))
+number3=int(input("Dgite um terceiro numero: \n"))
+media= (number1 + number2 + number3)  / 3
+print (f"Numeros digitados: {number1} , {number2} e {number3} sendo a media dos numeros: {media}")
