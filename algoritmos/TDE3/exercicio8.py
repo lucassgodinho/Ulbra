@@ -1,10 +1,12 @@
-print("exercicio 8")
-raio=float(input("Digite o raio do tanque: "))
-altura=float(input("Digite a altura do tanque: "))
-arealateral=  2 * 3.14 * raio * altura
-base= 3.14 * (raio * raio)
-areatotalcil= base + arealateral
-print(f"Area total: {areatotalcil}, area lateral: {arealateral} e a base: {base} ")
-gasto_total=((areatotalcil/ 3)/5) * 150
-latas= gasto_total / 150
-print(f"Total de gastos com a tinta: {gasto_total} reais. Sendo necessarias {latas} latas de tintas. ")
+#FUP que lê dois valores e escreve cada um juntamente com a mensagem: “É múltiplo de 2” ou “Não é múltiplo de dois”.
+print("Exercicio 8")
+num1 = float(input("Digite um primeiro numero: "))
+num2 = float(input("Digite um  segundo numero: "))
+if num1 % 2 == 0:
+    print ("É múltiplo de 2")
+else:
+    print("Não é múltiplo de dois")
+if num2 % 2 == 0:
+    print ("É múltiplo de 2")
+else:
+    print("Não é múltiplo de dois")

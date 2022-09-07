@@ -1,7 +1,10 @@
-print('Exercicio 3')
-tempo= float(input('Quantas horas demorou a viagem?'))
-velmedia= float(input('Qual foi a velocidade media?'))
-distance= tempo * velmedia
-litros= distance / 12
-print(f'Para realizar uma viagem de {tempo} horas em uma velocidade media de {velmedia} km/h voce ira gastar {litros} litros de combustivel.')
-
+#FUP para ler dois valores numéricos e apresentar a diferença do maior pelo menor. #
+print("Exercicio 3")
+num1 = float(input("Digite um primeiro numero: "))
+num2 = float(input("Digite um  segundo numero: "))
+dif = num1 - num2
+dif2 = num2 - num1
+if num1 > num2:
+    print(f"A diferenca entre os numeros sao de: {dif}")
+else:
+    print(f"A diferenca entre os numeros sao de: {dif2}")
