@@ -1,0 +1,61 @@
+*{
+    margin: 0 auto;
+}
+body{
+    background-color: rgb(200, 200, 200);
+}
+.divtudo{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.divlinha{
+    clear:both;
+}
+/*elementos do cabecalho */
+
+#divcabecalho{
+    background-color: #162581;
+    min-height: 100px;
+    padding: 20px 50px 10px 50px
+}
+#h1titulocabecalho{
+    color:white;
+    font-size:16px;
+    float:left;
+    text-align: left;
+}
+
+/*elementos das tabelas de classificacao*/
+#divclassificacao{
+    width:50%;
+    background-color: white;
+}
+.tableclassificacao{
+    width: 100%;
+    text-align: center;
+}
+.h3titulogrupo{
+font-size: 14px;
+}
+.h2titulosessao{
+    font-size: 20px;
+}
+/*elementos da tabela de goleadores */
+#divgoleadores{
+    width:50%;
+    background-color: white;
+}
+#tablegoleadores{
+    width: 100%;
+}
+/*elementos dos proximos jogos */
+#divjogos{
+    width: 100%;
+    background-color: white;
+}
+#table{
+    width:100%;
+    text-align:center;
+}
+#divjogos{
+    width: 50%;
+}
